@@ -1,0 +1,42 @@
+Traceback (most recent call last):
+  File "D:\项目文件\火炬\Torch\extension\qyhx_wy.py", line 233, in get_sjk_pz
+    db = sql.connect(host=self.host, user=self.user, password=self.password, database=self.database)
+  File "D:\virtualenv\torch\lib\site-packages\pymysql\connections.py", line 353, in __init__
+    self.connect()
+  File "D:\virtualenv\torch\lib\site-packages\pymysql\connections.py", line 633, in connect
+    self._request_authentication()
+  File "D:\virtualenv\torch\lib\site-packages\pymysql\connections.py", line 932, in _request_authentication
+    auth_packet = _auth.caching_sha2_password_auth(self, auth_packet)
+  File "D:\virtualenv\torch\lib\site-packages\pymysql\_auth.py", line 265, in caching_sha2_password_auth
+    data = sha2_rsa_encrypt(conn.password, conn.salt, conn.server_public_key)
+  File "D:\virtualenv\torch\lib\site-packages\pymysql\_auth.py", line 144, in sha2_rsa_encrypt
+    "'cryptography' package is required for sha256_password or caching_sha2_password auth methods"
+RuntimeError: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+Traceback (most recent call last):
+  File "D:\项目文件\火炬\Torch\extension\qyhx_wy.py", line 233, in get_sjk_pz
+    db = sql.connect(host=self.host, user=self.user, password=self.password, database=self.database)
+  File "D:\virtualenv\torch\lib\site-packages\pymysql\connections.py", line 353, in __init__
+    self.connect()
+  File "D:\virtualenv\torch\lib\site-packages\pymysql\connections.py", line 633, in connect
+    self._request_authentication()
+  File "D:\virtualenv\torch\lib\site-packages\pymysql\connections.py", line 932, in _request_authentication
+    auth_packet = _auth.caching_sha2_password_auth(self, auth_packet)
+  File "D:\virtualenv\torch\lib\site-packages\pymysql\_auth.py", line 265, in caching_sha2_password_auth
+    data = sha2_rsa_encrypt(conn.password, conn.salt, conn.server_public_key)
+  File "D:\virtualenv\torch\lib\site-packages\pymysql\_auth.py", line 144, in sha2_rsa_encrypt
+    "'cryptography' package is required for sha256_password or caching_sha2_password auth methods"
+RuntimeError: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+Traceback (most recent call last):
+  File "D:\项目文件\火炬\Torch\extension\qyhx_wy.py", line 233, in get_sjk_pz
+    db = sql.connect(host=self.host, user=self.user, password=self.password, database=self.database)
+  File "D:\virtualenv\torch\lib\site-packages\pymysql\connections.py", line 353, in __init__
+    self.connect()
+  File "D:\virtualenv\torch\lib\site-packages\pymysql\connections.py", line 633, in connect
+    self._request_authentication()
+  File "D:\virtualenv\torch\lib\site-packages\pymysql\connections.py", line 932, in _request_authentication
+    auth_packet = _auth.caching_sha2_password_auth(self, auth_packet)
+  File "D:\virtualenv\torch\lib\site-packages\pymysql\_auth.py", line 265, in caching_sha2_password_auth
+    data = sha2_rsa_encrypt(conn.password, conn.salt, conn.server_public_key)
+  File "D:\virtualenv\torch\lib\site-packages\pymysql\_auth.py", line 144, in sha2_rsa_encrypt
+    "'cryptography' package is required for sha256_password or caching_sha2_password auth methods"
+RuntimeError: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
